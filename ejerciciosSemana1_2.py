@@ -92,7 +92,7 @@
 # if inicio > fin:
 #     inicio , fin = fin, inicio #!De esta forma se intercambian los valores de una variable
 
-#print(f"Intercambiando los valores, ahora el rango es de {inicio} a {fin}")
+# print(f"Intercambiando los valores, ahora el rango es de {inicio} a {fin}")
 
 # suma_total = 0
 
@@ -108,9 +108,9 @@
 # for i in lista:
 #     print(i*2)
 
-"""lista = [1, 2, 5, 6, 8, 10]
-nueva_lista = [i * 2 for i in lista] #!Ojo a esta forma de guardar una lista pasándola por un ciclo for.
-print(nueva_lista"""
+# """lista = [1, 2, 5, 6, 8, 10]
+# nueva_lista = [i * 2 for i in lista] #!Ojo a esta forma de guardar una lista pasándola por un ciclo for.
+# print(nueva_lista"""
 
 # #Ejercicio 10: Tabla de multiplicar
 
