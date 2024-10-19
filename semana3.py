@@ -133,8 +133,76 @@
 # print(f"El número más pequeño es {menor_numero}")
     
 
-#OTRO CAMBIO
+# #Ejercicio 9: Contar letras en una frase
+
+# frase = input("Por favor ingrese una frase: ")
+
+# contador = 0
+
+# for letra in frase:
+#     if letra.isalpha():
+#         contador += 1
+    
+# print(f"{contador}")
+
+# # Ejercicio 10: Factorial de un número
+
+# while True:
+#     try:
+#         numero = int(input("Ingrese un número entero positivo: "))
+#         if numero < 0:
+#             print(f"Por favor ingrese un número positivo")
+#             continue
+#         break
+#     except ValueError:
+#         print(f"El dígito ingresado no cumple con las condiciones dadas:")
+#         continue
+
+# factorial = 1
+
+# for i in range(1, numero+1):
+#     factorial *= i
+
+# print(f"El factorial del {numero} es {factorial}")
 
 
+# # Ejercicio 11: Números pares en un rango
 
+# print(f"Debe ingresar dos números (Inicio de rango y fin de rango), ambos deben ser enteros y positivos")
 
+# while True:
+#     try:
+#         inicio = int(input("Ingrese el primer número aquí: "))
+#         fin = int(input("Ingrese el segundo número aquí"))
+#         if inicio < 0 or fin < 0:
+#             print(f"Todos los número ingresados deben ser POSITIVOS")
+#             continue
+#         break
+#     except ValueError:
+#         print(f"El dígito ingresado debe ser un número entero; ejemplo: 5")
+#         continue
+    
+# for numero in range(inicio, fin+1):
+#     if numero % 2 == 0:
+#         print(f"{numero}")
+
+# # Ejercicio 12: Multiplicación acumulativa
+
+while True:
+    try:
+        numero = int(input("Ingrese un número entero: "))
+        if numero == 0:
+            print(f"EL número debe ser diferente de cero")
+            continue
+        break
+    except ValueError:
+        print(f"El número no es un entero")
+        continue
+
+contador = 0
+base = 1
+while base < 1000:
+    base = base * numero
+    contador += 1
+    
+print(f"{base} y {contador}")
