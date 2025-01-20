@@ -39,6 +39,8 @@ diccionario = {               #? Primero se define el nombre del diccionario, qu
 # }
 
 
+
+
 #                         #TODO: PARA ACCEDER A LOS VALORES DE UNA CLAVE
 # mi_diccionario["nombre"]      #? Para acceder al valor correspondiente a esa clave ---> Juan
 # mi_diccionario.get("nombre")  #? Arroja el mismo resultado, acceso al valor de la clave ---> Juan
