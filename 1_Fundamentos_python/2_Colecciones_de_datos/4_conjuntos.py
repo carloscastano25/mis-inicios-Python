@@ -100,6 +100,19 @@
 # print(f"{conjunto}")            #? Imprime un conjunto ya vacío ---> set()
 
 
+#TODO: NOTA MUYYYY IMPORTANTE: Los siguiente métodos claramente son aplicables a los conjuntos (set), pero hay 
+#TODO: otro tipo de conjunto muy importante llamado frozenset, los cuales son inmutables, por lo que los métodos
+#TODO: mencionados anteriormente arriba, no son aplicables a los FROZENSET, ya que lo modifican y lanzaría un
+#TODO: error de tipo de dato, pues no es hashable, osea no se le puede asignar un valor único ya que puede cambiar. 
+#TODO: Los métodos a continuación sí se aplican a los frozenset, ya que no modifica el conjunto en sí, si no que 
+#TODO: Retornan un nuevo conjunto o un booleano.  
+
+                                            #TODO: Sintaxis
+                                                    # conjunto = frozenset({1,2,3,4,5,6})
+                                                    #? O dentro del dicho conjunto puede ir cualquier iterable
+                                                    #? como tupla, lista o un conjunto normal como en el ejemplo. 
+#! El resto de los métodos de aquí en adelante son aplicaboles tanto a un conjunto normal, mutable, como al frozenset()
+
 #!          .union(otro_conjunto)
 #? Retorna un nuevo conjunto con todos los elementos únicos de los conjuntos unidos, aquellos que estén repetidos
 #? no son tomados en cuenta. 
